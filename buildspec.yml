@@ -4,6 +4,7 @@ phases:
     commands:
       - npm install --verbose
       - npm install -g serverless --verbose
+      - sudo apt install zip unzip
   pre_build:
     commands:
       - echo checking code quality...
